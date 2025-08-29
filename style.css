@@ -1,0 +1,107 @@
+*{
+   
+    padding: 0px;
+    margin: 0px;
+}
+   
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:"Sriracha", cursive;
+    --font3:"Passion One", sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    
+}
+header h1{
+    text-align: center;
+    padding-top: 90px;
+    font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 5.3vw;
+    
+}
+header p{
+    padding-bottom: 90px;
+    text-align: center;
+    font-family:var(--font1);
+    font-size: 2.7vw;
+}   
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+section{
+    padding: 5vh 0vh;
+    font-size: 3vw;
+    line-height: 2.3em;
+    font-family: var(--font2);
+    text-align: center;
+    text-align: center;
+
+}
+
+
+.fundo-t{
+    display: inline-block;
+    background-color: #00000080;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px #00000080;
+    
+}
+.fundo-branco{
+    color: #111111;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+    
+footer{
+    background-color: #000000d8;
+}
+footer p{
+    font-size: 1.7vw;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p a{
+    color: white;
+    text-decoration: none ;
+    font-weight: bold;
+}
+p a:hover{
+    
+    color: white;
+    text-decoration: underline;
+}
