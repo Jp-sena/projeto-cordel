@@ -38,7 +38,7 @@ header p{
     padding-bottom: 90px;
     text-align: center;
     font-family:var(--font1);
-    font-size: 2.7vw;
+    font-size:3.3vw;
 }   
 
 #img1{
@@ -59,11 +59,10 @@ header p{
 }
 section{
     padding: 5vh 0vh;
-    font-size: 3vw;
+    font-size: 3.5vw;
     line-height: 2.3em;
     font-family: var(--font2);
-    text-align: center;
-    text-align: center;
+  
 
 }
 
