@@ -44,7 +44,7 @@ header p{
 #img1{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-size: cover;
+    
     background-attachment: fixed;
     color: white;
     
@@ -52,7 +52,7 @@ header p{
 #img2{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    background-size: cover;
+    
     background-attachment: fixed;
     color: white;
     
@@ -61,7 +61,7 @@ section{
     padding: 5vh 0vh;
     font-size: 3.5vw;
     line-height: 2.3em;
-    font-family: var(--font2);
+    font-family: var(--font1);
   
 
 }
