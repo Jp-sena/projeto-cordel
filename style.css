@@ -88,7 +88,7 @@ footer{
     background-color: #000000d8;
 }
 footer p{
-    font-size: 3vw;
+    font-size: clamp;
     text-align: center;
     color: white;
     padding: 3px;
